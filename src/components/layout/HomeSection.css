@@ -1,0 +1,63 @@
+.hero-container {
+   background: url('../../images/internet2.jpg') center center/cover no-repeat;
+    box-shadow:  inset 4em 120em black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 100px 100px 100px 1000px rgba(0, 0, 0, 0.3);
+    object-fit: contain;
+  }
+  
+  .hero-container > h1 {
+    color: #fff;
+    font-size: 75px;
+    margin-top: -10px;
+  }
+  
+  .hero-container > p {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
+  .hero-btns {
+    margin-top: 32px;
+    width: 250px;
+  }
+  
+ 
+
+  .hero-btns  button{
+      width: 100%;
+      font-size: 20px;
+  }
+
+
+  .dropdown-menu {
+    display:block;
+    width: 300px;
+    height: 400px;
+      }
+
+      @media screen and (max-width: 960px) {
+        .hero-container > h1 {
+          font-size: 70px;
+          margin-top: -150px;
+        }
+      }
+      
+      @media screen and (max-width: 768px) {
+        .hero-container > h1 {
+          font-size: 50px;
+          margin-top: -100px;
+        }
+      
+        .hero-container > p {
+          font-size: 30px;
+        }
+    }      
